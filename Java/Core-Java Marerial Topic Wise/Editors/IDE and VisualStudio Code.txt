@@ -1,0 +1,248 @@
+1) What is an IDE?
+	- IDE stands for Integrated Development Environment
+	- The IDE is an editor software that provides an evironment to develop projects 
+	   by integrating to different softwares which are used as part of this project
+	- That means IDE provides connectivity to different sotwares from the same editor window.
+	- We no need to open each software in separate window those we are using in our project
+	- IDE provides fast development
+
+2) What are the advantages of IDEs?
+	1) it gives code help (less typing, more choosing)
+	2) easy to copy paste and moving lines
+	3) auto generation of code (fields, constructors, methods, condition, loops, try, catch, finally, throws, etc...)
+	4) easy debugging
+	5) we can connect to diff sotwares from this IDE editor
+	6) fast development
+	7) time and money is saved.
+
+3) Popular IDEs for Java application development?
+	1) Visual Studio Code
+	2) Sublime Text Editor
+
+4) Working with visual Studio Code?
+	1) What is visual Studio Code?
+		- An visual Studio Code is an IDE software
+		- It is an text editor software
+		- It is an open source software (freely avilable to download, we can get its source code and  
+		         even we can also involve in its features development )
+		- It is meant for developing projects more faster with less typing.
+
+5) How to Install a Visual Studio code.
+
+   a.https://code.visualstudio.com/download
+   b. click on windows button. 
+   c. click on .exe file.
+   d. Go head until  installation completed.
+
+6)shortcuts 
+ 
+   a. Increasing and Decreasing Fontsize
+       ctrl ++ and ctrl --
+
+   b. For indentation of oneline and multiple lines.
+        ctrl+] for right indentation.
+        ctrl+[ for left indentation.
+   c.  For sigle line comment ctrl+/.
+       For multiline comment  ctrl+k+u   or ctrl + /
+
+   d.  ctrl+x deletes whole line.
+       ctrl+delete  , it delete the next word.
+       ctrl+backspace, it delete the previous word.
+    
+   e.  Expand selection from cursor to end of line.
+       shift+end.
+       expand selection from cursor to begining of line.
+       shift+home.
+       Expand selection from cursor to next word.
+       shift+ctrl+rightarrow.
+       Expand selection from cursor to previous word.
+       shift+ctrl+leftarrow.
+
+       Select whole line
+       ctrl+L     
+
+   f.  change same word at multiple locations
+       ctl+shift+L 
+
+   g.  ctl+N for creating a new file.
+   
+   h.  ctl+f4 for closing the active window.
+
+   i.  ctl+k+f for closing the folder.
+   
+   j.  ctl+k , ctl+o to open a new folder.
+
+   k.  move current to up and down use  alt+ uparrow, alt+ downarrow.
+  
+   l.  create a duplicate of current line  shift+alt+uparrow, shift +alt+downarrow.
+
+   m. Transform text to lowercase.
+         select text
+         i. ctrl+shift+p
+         ii. type 'lowercase' 
+         iii. hit enter.
+
+      Transform text to uppercase.
+         i. ctrl+shift+p
+         ii. type 'uppercase'
+         iii. hit enter.
+
+   n. ctrl+shift+p to open the command palate.
+
+
+7. Shortcuts to generate .html code.
+
+  a. shift+i+ enter to generate "boilar plate code".
+  b. opening-tag name + enter to generate to write complete element definiton.
+  c. Add a class to element while creating.
+     i. opening-tagname .classname + enter  for single class.
+     ii. opending-tagname .classname .classname .etc + enter for multiple classes in single html element.
+  d. Add a Id to element while creating.
+     i. opening-tagnam #id+enter.
+
+  e. Add a content to element while it is being creating
+
+     opening-tagName{content}
+
+  f. Add a sibling elements
+    
+     tagname1+tagname2 + ...etc.
+
+  g. Add element and child element to it.
+
+     parent element > child element
+
+  h. for grouping use '(' and ')'.
+
+  i. Multiplication
+     
+     tagName* n ---> It generate n number of elements.
+  
+  j. Numbering
+    
+     { content $[@startingnum]}
+  
+     Example: li{item $}*3
+     output : <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>  
+
+   k. adding attributes to tag.
+  
+     tagname[attrname="value"]+enter 
+
+   m. Form related short cut
+
+        form:
+        input elementname: 
+           
+        They display tag with avialble attributes.
+
+   n. lorem + enter . It adds the dummy text.
+      lorem[n]+ enter . it adds only n words of dummy text.
+
+ 
+
+
+8. CSS shortcuts to properties definition:
+
+  a.  padding Realted shortcuts:
+   
+      1.p:v1unit+enter
+      2.p[l|r|t|b]:v1unit+enter
+
+  b. margin related shortcuts:
+   
+      1. m:v1unit+enter
+      2. m[l|r|t|b]:v1unit+enter
+
+  c. size related shourtcuts:
+
+      1. h:v1unit+enter
+      2. w:v1unit+enter
+
+  d. font-related shortcuts;
+   
+      1.ff:+enter -->font-family
+      2.ff[startingletter of familyname]+enter
+        EX:
+        ffv+enter --->  font-family:verdana;
+        ffa+enter ---.  font-family:arial;
+
+      3.fsn+enter -->font-style:normal
+        fsi+enter -->font-style:italic
+    
+      4.fwb+enter ---> font-weight:bold;
+        fwn+enter  where n is weight.
+        Ex: fw700+enter  ----> font-weight:700;
+       
+      5.fz+enter -->font-size
+        fzunits + enter
+        Ex:  fz200em+enter --> font-size:200em;
+
+      6.Grouping the shortcuts to create properties at time.
+        shorcut1+shorcut2+...etc
+        EX:  p:20em+ffa+enter
+             --->
+             padding:20px;
+             font-family:arial; 
+
+         
+   
+          
+               
+  
+9. How to create simple snippet.
+
+   It help the programmar while writing redudency code at differnt places in program.
+
+   step1:File->preferences->configure user snippets.
+   step2:Once you do this you will be presented with 3 main ways to create a snippets file.
+
+	2.1. A global snippets file that will work across all projects and all languages.
+	2.2. A project snippets file that will work only within the current project.
+	2.3. A language specific snippets file that will only work for one language.
+ 
+    step3.
+           Create a JSON Data.
+           {
+              "nameofSnippet":{   
+                                 "scope": "language1,language2, ..etc",//  This snippet will works only in these specified languages.
+                                 "prefix": "some-text",   //This is the small amount of text you type that expands into the larger text.
+                                 "body":" text", // This text will be written over console, when we type "some-text + enter".
+                                 "description":"Description of snippet"
+                              }
+            }
+
+    Example: create snippet for displaying "html program structure".
+
+             {
+                 "boiler_plate":{
+                                     "scope":"html",
+                                     "prefix":"bp",
+                                     "body":[ "<hmtl>","<head>","</head>","<body>","</body>","</html>"],
+                                     "description":"It writes the html program structure"
+                                }
+             }
+
+             if you type "bp+enter" on editor, you will see the basic html program structure on editor.
+                   
+
+
+
+10. Extensions:- we can see the installed extension by 'ctrl+shift+x' command.
+ 
+   7.1. Emmit:- It is plug-in for text-editor. It improves HTML & CSS work flow.
+   
+
+   
+
+      
+  
+
+ 
+             
+ 
+
+
+	

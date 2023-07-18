@@ -1,0 +1,6 @@
+1.hakerrank
+2.codechef
+3.codesignal
+4.prepinst
+5.Exersim
+6.indiabix.com ---> it is for logical programming.
