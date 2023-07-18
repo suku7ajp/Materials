@@ -1,0 +1,4 @@
+1.Closures
+2.promises.
+3.Async
+4.Indexed DB.
