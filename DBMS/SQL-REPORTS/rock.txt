@@ -1,0 +1,13 @@
+spool D:\sukumar.sql
+set linesize 120;
+set pagesize 12;
+set termout off;
+set colsep '|';
+set numwidth 16;
+repfooter "----Person Details end---"
+prompt -----------------------------------------------------------------------------;
+ttitle center  FAMILY MEMBER DETAILS ;
+prompt -----------------------------------------------------------------------------;
+select * from person;
+prompt -----------------------------------------------------------------------------;
+spool off;
