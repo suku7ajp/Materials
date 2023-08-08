@@ -1,0 +1,19 @@
+Database Users:Database users are one who really use and take benefits of database. There are different types of Db users.
+
+                       A)Application Programmers.
+                       B)Sophisticated Users.
+                       C)stand-alone Users.
+                       D)Native Users.
+
+A)	Application Programmers:- The Application programmers writes application in high level languages like java,c,...etc. In this program,
+        The programmer embedded the SQL queries. Through these programs, the application programmer communicates the DB.
+
+B)	Sophisticated Users:- They are data base developers/DBAs, who write sql queries to select/insert/delete/update data. They  do not use any application or programs to request database. They directly interact with database by menas of Query language like SQL.
+
+C)	specialized Users:- They are experts to write complex queries .
+
+D)	Native Users:- These are users who use existing application to interact with data base. They don’t have knowledge about the database.
+
+     EX:- customers of Bank.
+
+    They  interact with Bank DB using  ATM application.

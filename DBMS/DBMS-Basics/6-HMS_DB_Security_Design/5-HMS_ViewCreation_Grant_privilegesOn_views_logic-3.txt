@@ -1,0 +1,4 @@
+create view suma_per_data as select pid,pname,tob,dob,lob,gender,age,contact_no from person where pid=4 with read only;
+create view suha_per_data as select pid,pname,tob,dob,lob,gender,age,contact_no from person where pid=4 with read only;
+grant select on suma_per_data to suma;
+grant select on suha_per_data to suha;

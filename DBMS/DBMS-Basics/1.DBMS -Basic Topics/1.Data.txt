@@ -1,0 +1,22 @@
+1. Data :- The data is collection of raw facts. we collection this raw facts from 
+     a.interviews
+     b.surveys.
+     c.Internet.
+     ...ect.
+  The data can be in the form of text,pictures,audio and video. The data is unorganized or processed data. 
+  The data does not have meaning.
+  The data is stored in computer peripherals hard disks, flopy drives, pen/thumb drives ...etc.
+  The data is not useful in decision making to managers.
+  Example:The following raw facts collected directly from students.
+                 HHH   25  40000
+                 ROCK  35  60000
+    When we shown the data to other than students, they get following questions in our mind.But don’t have proper answers.
+
+Q) which system(inventory,banking,hospital,…etc) is that data belonged?
+
+Q)who is hhh?
+
+Q)What is 35 & 40000?
+
+Defenately, we can’t say answer to that questions. This is problem associates with data.
+ 

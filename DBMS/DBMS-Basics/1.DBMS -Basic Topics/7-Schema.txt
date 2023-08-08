@@ -1,0 +1,6 @@
+Schema:- Schema is overall structure or overll blue print of DB. Schema represents that 
+ 1. entities participated in schema.
+ 2. Properties of each entity.
+ 3. Relation ship between or among the entities.
+ 4. constraints/provisions on the entites.
+ 5... other information.
