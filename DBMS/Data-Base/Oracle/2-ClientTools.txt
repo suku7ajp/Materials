@@ -1,0 +1,16 @@
+The User is connected with Oracle DB with help of the client tools.
+The Oracle DB and User communicate with each other by client tools.
+
+     ClientTool----------------------->  Oracle DB
+         ^
+         |
+         |
+        User 
+        
+There are many client tools in martket.
+a.sql+ :- It is Command Line User Interface Tool.
+b.SQL developer :- It is Graphical User Interface Tool.
+c. Toad
+d. SQL Navigator.
+
+

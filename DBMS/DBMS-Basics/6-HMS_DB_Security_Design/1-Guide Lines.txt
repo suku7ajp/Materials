@@ -1,2 +1,0 @@
-Before writing a logic for creating DB users and granting privileges to them, read the following documents in "Oracle SQL notes"
-1. DCL Commands.

@@ -1,0 +1,37 @@
+The Oracle Co-orporation is giving DBMS s/w in 2 Editions.
+  a. Express Edition.
+  b. Enterprise Edition.
+
+a. Express Edition:-  Express edition does not support all features of Oracle.
+   Ex:- Recyclebin,partition,..etc to them express Edition does not support.
+  => while installing express edition, By default one user is created.
+   That user credentials are
+   UserName:System
+   Password:Manager.
+  => while installing , By default one DB is created. The DB name is "xe".
+
+   Advantages:-
+   1. It requires few space in Hard disk to install.
+   2. With in few time, Its installation will complete.
+  
+b. Enterprise Edition:-Enterprise edition supports all oracle features.
+   =>while installing enterprise edition, By default two users are created.
+   First User credentials are
+   UserName:System
+   Password:Manager.
+   Second User Credentials are
+   UserName:scott
+   Password:tiger
+
+   The scott  user-schema have following two tables.
+   1. Emp
+   2. Dept
+
+  => While installing , One Default DB is created .That DB name is "orcl".
+
+   Drawbacks:-
+   1. It requires more space in hard disk based on Enterprise version.
+   2. Installation requires more time.
+
+    
+   

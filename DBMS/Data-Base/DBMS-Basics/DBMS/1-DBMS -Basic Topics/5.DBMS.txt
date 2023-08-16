@@ -1,0 +1,47 @@
+DBMS:- The DBMS is software  which is used to create and manage the database.
+
+       Ex:-MySQL,Oracle,DB2,SyBase…etc
+
+Advantages:-
+---------- 
+1. Security:- 
+   
+   Before Connecting to db, The dbms requires the user name and password from user. The dbms checks whether given credentials correct or not.
+   If user is authenticated user, then only DBMS allows user to access data base.
+ 
+   After connecting to db ,  when user access the data in database, dbms checks whetheruser has permission regarding to data or not.
+   This is called authorization of user.
+
+2. Data Sharing:- DBMS provides a plat form for sharing the data among the different applications and differnt users
+   simultaneously, with out conflicts.
+
+3. BackUp and Recovery:- DBMS provides Backup and recovery mechanism. The DBMS backups the data automatically and and periodically.It takes care of back up.
+   It enables organizations to recover lost or damanaged data quickly and efficiently.
+   Ex:- If computer crashes during complex transaction,
+        The recovery system is responsible for ensuring that transaction resumes from where it is interrupted or at least restore to the state it was before
+        transaction execution started. 
+
+4. Faster data Access:- The database management system helps to produce quick answers to database queires thus making data access 
+   faster and more accurate.The users get required data in required manner and very fastly.
+5. Enforcing the Integrity constraints.
+6. Reduancy:- DBMS reduces / eliminating (if possible) data redudancy by storing data in centralized location.
+              Ex: In traditional File system, each user group maintains its own files.
+                  University DB:- There are two user groups. 
+                  1. Account Dept
+                  2. Exam Dept.
+              Account Dept maintains file which have the following columns.
+                 a. Rollno
+                 b. Name
+                 c. Fee paid
+                 d. Fee Due.
+             Exam Dept maintains file which have the following columsn.
+                 a. Rollno
+                 b. Name
+                 c. course
+                 d. Grade.
+            Details of Studen(rollno,name) is repeated in two files. This repetation leads to data redudancy, inconsistency  and data storage problems.
+            During DB design, the data is integrated and all data is stored in one place of DB. so it controls the redudancy.     
+   
+   
+
+

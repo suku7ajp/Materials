@@ -1,0 +1,5 @@
+In grocery_items table, we have to store unique and sequential number in item_no column.
+The End User inserts a one record per month. Therefore remembering last record item_no
+is difficult to enduser.
+So , The value which is inserted into item_no column is generated with help of "sequence".
+

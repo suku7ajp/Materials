@@ -1,0 +1,70 @@
+whenever we are installing oracle server then automatically SQL*+ clien tool is also
+installed. So It is default client tool in Oracle database.
+Commands:
+--------
+1. set :-
+   
+ syntax: set variable_name value;
+ 
+Variable_names and their values are
+  a.pagesize  n
+  b.linesize  n
+  c.heading   on|off
+    => on: The column name will be displaed in query result.
+    => off: The column name will not be displayed in query result.
+  d.pause     on|off|message
+    =>On:This command pauses sql*plus before printing query result and displaying newpage.
+    Example
+    set pause "Enter press button:"
+    SQL> select * from sv;
+    Enter press button:
+        ID NAME                                                                 
+---------- ----------                                                           
+         7 suku                                                                 
+         8 veena     
+  e.time      on|off
+  f.Feedback  on|off|n
+    =>If query returns 6 or more than 6 rows, then we see message of result.
+    =>Message is that "total no.of rows:n";
+    =>Otherwise we don't see the message on console.
+  g. colsep    char
+  h. colwidth   =n
+
+
+2. @ :-
+    syntax:- @absolute path of .sql file|.txt file.
+   This command executes sql*plus command, Sql queries, pl/sql blocks which is in
+   either .sql file or .txt file.
+   Example:-
+   SQL>@ E:\sample.txt
+    Name                                      Null?    Type
+     ----------------------------------------- -------- ----------------------------
+    ID                                                 NUMBER(7)
+    NAME                                               CHAR(10)
+
+3. prompt:- 
+     syntax:-  prompt  message
+     This command displays the message on commond prompt.
+
+4. ttile:-
+     syntax:- ttitle off|center|left|right  message
+   It puts title at top of each page.
+
+5. btitle:-
+     syntax:- btitle off|center|left|right message
+   It puts title at bottom of each page.
+
+6. show:-
+     syantax: show built-in_var [all]
+     =>It show specified built_in_var value.   
+     => It shows all built_in_var values.
+7. clear screen
+8. help command_name.
+9. spool file_name|off
+=> By default out put of query is displayed on screen. 
+=> if u set off, Resulut will not be displayed on screen. It will be written to spool file.
+
+     
+ 
+
+

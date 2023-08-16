@@ -1,0 +1,8 @@
+1.For sql developer convience, we create synonyms for long DB object names. 
+In HMS_DB , the following DB objects have long names.
+ a.school_fee_payment.
+ b.fee_pay_cleared_in
+ 
+Rule:- Both synonyms should  be visible outside current user scheema.
+
+  

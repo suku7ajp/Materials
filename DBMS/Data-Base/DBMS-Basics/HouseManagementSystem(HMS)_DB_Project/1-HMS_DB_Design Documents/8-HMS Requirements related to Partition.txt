@@ -1,0 +1,9 @@
+Every month, we may store nearly 100 records in grocery_items.
+So with in one year,That table size will may exceed the 2 GB storage space.
+When exceeded, we have following problems.
+a. DML query performance will decrease.
+b. Back-UP and recovery process becomes difficult.
+
+   To solve problems, I am going to divide the grocery_item table into two tables.
+ 1.grocery_item_par
+ 2.Fancy_item_par

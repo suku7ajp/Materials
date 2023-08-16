@@ -1,0 +1,24 @@
+As per client requirements,Two User groups Identitiied.
+1.Kids.
+2.Adults.
+
+The kids group have two users
+a.suma
+b.suha.
+   They will be  able to only select all records from two tables(grocery_item,school_fee_payment). 
+   They can only see their personal data except aadhar card no and pan_card no.
+   They can't do any other operation on remain tables.
+
+The Adults group have two users.
+a.sukumar
+b.veena
+
+  sukumar will be able to do all operations on HMS_DB.
+  veena will be able to only read the records from all the tables of HMS_DB.
+  veena wants to know only itemno,itemname,price,quantity data from gold_arnaments table.when gold_arnament table
+  is updated, that updation should be reflected in selected data.
+  
+
+
+
+

@@ -1,4 +1,0 @@
-Before writing a logic for HMS_DB creation,You should refer the following topics in "Oracle SQL Notes".
-1.DDL
-2.Data Types.
-3.Constraints. 

@@ -1,0 +1,4 @@
+step1:- open the SQL Command Prompt.
+step2:- Type address of .sql file  which should be started with @.
+Example:- Assume that .sql is in 'D:\' drive .
+SQL> @D:\HMS_DB_Creation_Logic.sql

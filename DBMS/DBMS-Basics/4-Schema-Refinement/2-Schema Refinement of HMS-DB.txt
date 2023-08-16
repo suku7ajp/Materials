@@ -1,7 +1,0 @@
-All the fields of All table in HMS will have only atomic values. Therefore HMS DB is in First-Normal Form.
-There is no partial-dependencies on each relation of HMS.Therefore HMS DB is in second-Normal Form.
-No relation in HMS DB have  transitive dependencies. Therefore HMS DB is also in third-normal form.
-
-1. The HMS is in BCNF.
-
-   
